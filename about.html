@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Biya Brook</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Cormorant Garamond', serif; /* Cormorant Garamond font */
+            background-color: #ADD8E6; /* light blue */
+            color: #000000; /* black */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #ffffff; /* white */
+            padding: 20px 0; /* Increased padding for more spacing */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header nav a {
+            color: #000000; /* black */
+            text-decoration: none;
+            margin: 0 15px; /* Adjusted margin for spacing between links */
+            font-size: 20px; /* Adjusted font size */
+            font-weight: 600; /* Bold for better visibility */
+            font-family: 'Cormorant Garamond', serif; /* Cormorant Garamond font for links */
+        }
+
+        .header .home-logo {
+            width: 40px; /* Adjusted logo size */
+            height: 40px; /* Adjusted logo size */
+        }
+
+        .container {
+            max-width: 1000px; /* Wider box */
+            padding: 20px 40px; /* Shorter height, increased width */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #e6e6fa; /* very light purple */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 120px auto 40px auto; /* Increased top margin for more spacing due to fixed header */
+        }
+
+        h1 {
+            color: #4b0082; /* dark purple */
+            font-family: 'Cormorant Garamond', serif; /* Cormorant Garamond font for headings */
+            font-size: 36px; /* Larger font size */
+        }
+
+        p {
+            font-size: 22px; /* Larger font size */
+            line-height: 1.6;
+            font-family: 'Cormorant Garamond', serif; /* Cormorant Garamond font for paragraphs */
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a href="about.html">About</a>
+            <a href="index.html">
+                <img class="home-logo" src="https://i.ibb.co/r7b6jh5/Screenshot-2024-06-19-182739.png" alt="Home">
+            </a>
+            <a href="projects.html">Projects</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>About</h1>
+        <p>My name is Biya Brook and I am the son of Ethiopian immigrants. I am currently a freshman at Stanford studying Symbolic Systems.</p>
+    </div>
+</body>
+</html>
