@@ -77,6 +77,43 @@
             text-align: center; /* Center text within paragraphs */
             margin-bottom: 20px; /* Bottom margin for spacing */
         }
+
+        .buttons-container {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .resume-button, .projects-button {
+            display: inline-block;
+            background-color: #ffffff; /* White background */
+            color: #000000; /* Black text */
+            font-family: 'Cormorant Garamond', serif; /* Cormorant Garamond font for button */
+            font-size: 24px; /* Larger font size */
+            padding: 16px 32px; /* Increased padding */
+            border: 2px solid #000000; /* Black border, 2px */
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .resume-button:hover, .projects-button:hover {
+            background-color: #ADD8E6; /* Light blue on hover */
+        }
+
+        .button-divider {
+            display: inline-block;
+            font-size: 24px; /* Adjust size as needed */
+            margin: 0 50px; /* Adjust spacing as needed */
+            vertical-align: middle; /* Align the bullet vertically */
+        }
+
+        .about-image {
+            width: 300px; /* Set the desired width */
+            height: auto; /* Maintain aspect ratio */
+            margin: 20px 0;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -92,11 +129,19 @@
     
     <div class="container">
         <h1>About Me</h1>
+   
         <p>My name is Biya Brook and I am the son of Ethiopian immigrants. I was born in Boston, moved to Addis Ababa, Ethiopia when I was 6, and moved back to Boston when I was 8. I recently graduated from Boston Latin School and am currently a freshman at Stanford studying Symbolic Systems.</p>
         
         <p>Since I have lived in various parts of the world, my childhood has introduced me to a multitude of different languages and cultures. As a result, I have always been fascinated by languages. At school, I have had the opportunity to learn Mandarin, Latin, Italian, and Ancient Greek, while also learning Amharic and Ge’ez at home. Through my knowledge of Latin, I hope to learn modern romance languages, specifically Portuguese and Spanish, in the next few years.</p>
         
         <p>My passion for languages brought me to Symbolic Systems, a major at Stanford focusing on the relationship between humans and artificial intelligence. Symbolic Systems integrates the disciplines of Computer Science, Linguistics, Mathematics, Philosophy, Psychology, and Statistics. At Stanford, I hope to use my skill and passion in languages to better humanity. On this website, I will share all of my projects that I work on.</p>
+        
+        <div class="buttons-container">
+            <a class="resume-button" href="https://drive.google.com/file/d/13MTzYZ5SqD43CZ4ycw15GuG1a2TPQli7/view?usp=sharing" target="_blank">Resume</a>
+            <span class="button-divider">•</span>
+            <a class="projects-button" href="projects.html">Projects</a>
+        </div>
+ <img class="about-image" src="https://i.ibb.co/Y75Xppq/D7-DAAF16-46-B9-4-A31-9-FAB-288-DC979-AD67-1.jpg" alt="About Me Image">
     </div>
 </body>
 </html>
