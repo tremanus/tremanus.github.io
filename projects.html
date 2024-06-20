@@ -8,17 +8,17 @@
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap');
 
         body {
-            font-family: 'Cormorant Garamond', serif; /* Cormorant Garamond font */
-            background-color: #ADD8E6; /* light blue */
-            color: #000000; /* black */
+            font-family: 'Cormorant Garamond', serif;
+            background-color: #ADD8E6;
+            color: #000000;
             margin: 0;
             padding: 0;
             text-align: center;
         }
 
         .header {
-            background-color: #ffffff; /* white */
-            padding: 20px 0; /* Increased padding for more spacing */
+            background-color: #ffffff;
+            padding: 20px 0;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -36,58 +36,140 @@
         }
 
         .header nav a {
-            color: #000000; /* black */
+            color: #000000;
             text-decoration: none;
-            margin: 0 15px; /* Adjusted margin for spacing between links */
-            font-size: 20px; /* Adjusted font size */
-            font-weight: 600; /* Bold for better visibility */
-            font-family: 'Cormorant Garamond', serif; /* Cormorant Garamond font for links */
+            margin: 0 15px;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Cormorant Garamond', serif;
         }
 
         .header .home-logo {
-            width: 40px; /* Adjusted logo size */
-            height: 40px; /* Adjusted logo size */
+            width: 40px;
+            height: 40px;
         }
 
         .container {
-            max-width: 1000px; /* Wider box */
-            padding: 20px 40px; /* Shorter height, increased width */
+            max-width: 1000px;
+            padding: 20px 40px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            background-color: #e6e6fa; /* very light purple */
+            background-color: #e6e6fa;
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 120px auto 40px auto; /* Increased top margin for more spacing due to fixed header */
+            margin: 120px auto 40px auto;
         }
 
         h1 {
-            color: #4b0082; /* dark purple */
-            font-family: 'Cormorant Garamond', serif; /* Cormorant Garamond font for headings */
-            font-size: 36px; /* Larger font size */
+            color: #4b0082;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 36px;
         }
 
         p {
-            font-size: 22px; /* Larger font size */
+            font-size: 22px;
             line-height: 1.6;
-            font-family: 'Cormorant Garamond', serif; /* Cormorant Garamond font for paragraphs */
+            font-family: 'Cormorant Garamond', serif;
+        }
+
+        .project {
+            background-color: #e6e6fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px 0;
+            width: 100%;
+        }
+
+        .project-text {
+            text-align: left;
+            flex: 1;
+        }
+
+        .project-title {
+            font-size: 28px;
+            color: #4b0082;
+            font-weight: 600;
+        }
+
+        .project-description {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .project-logo {
+            width: 300px;
+            margin: 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .project-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     </style>
 </head>
 <body>
     <header class="header">
         <nav>
-            <a href="about.html">About</a>
-            <a href="index.html">
+            <a href="about.html" target="_blank">About</a>
+            <a href="index.html" target="_blank">
                 <img class="home-logo" src="https://i.ibb.co/r7b6jh5/Screenshot-2024-06-19-182739.png" alt="Home">
             </a>
-            <a href="projects.html">Projects</a>
+            <a href="projects.html" target="_blank">Projects</a>
         </nav>
     </header>
     
     <div class="container">
         <h1>Projects</h1>
-        <p>Details on projects...</p>
+        <div class="project">
+            <div class="project-text">
+                <div class="project-title">ScholaLatinae</div>
+                <div class="project-description">
+                    I created a Latin website, a 501(c)(3) registered nonprofit, that teaches people the Classics for free through resources ranging from textbooks to study guides, lessons found on YouTube, practice questions with a leaderboard, and games such as Geoguessr map of the Classical World.
+                </div>
+            </div>
+            <div class="project-content">
+                <a href="https://scholalatinae.com" target="_blank">
+                    <img src="https://i.ibb.co/THJ7nMg/Screenshot-2024-06-19-232535.png" alt="ScholaLatinae" class="project-logo">
+                </a>
+                <div class="social-icons">
+                    <a href="https://youtube.com/@ScholaLatinae" target="_blank">
+                        <img src="https://i.ibb.co/QCGXy3W/image.png" alt="YouTube">
+                    </a>
+                    <a href="https://instagram.com/scholalatinae" target="_blank">
+                        <img src="https://i.ibb.co/2Z30B6V/Screenshot-2024-06-19-233205.png" alt="Instagram">
+                    </a>
+                    <a href="https://discord.gg/NzPGERt5F3" target="_blank">
+                        <img src="https://i.ibb.co/CsRLsHr/image.png" alt="Discord">
+                    </a>
+                    <a href="https://zeffy.com/en-US/donation-form/e876bdc8-ceb3-424a-bb89-28ab758ecb6e" target="_blank">
+                        <img src="https://i.ibb.co/f2hMqgL/image.png" alt="Donate">
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
