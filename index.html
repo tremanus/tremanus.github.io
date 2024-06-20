@@ -15,6 +15,7 @@
             padding: 0;
             text-align: center;
         }
+
         .header {
             background-color: #ffffff; /* white */
             padding: 20px 0; /* Increased padding for more spacing */
@@ -27,11 +28,13 @@
             z-index: 1000;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
         .header nav {
             display: flex;
             justify-content: center;
             align-items: center;
         }
+
         .header nav a {
             color: #000000; /* black */
             text-decoration: none;
@@ -39,11 +42,13 @@
             font-size: 20px; /* Adjusted font size */
             font-weight: 600; /* Bold for better visibility */
         }
+
         .header .home-logo {
             margin: 0 15px;
             width: 40px;
             height: 40px;
         }
+
         .container {
             max-width: 1000px; /* Wider box */
             padding: 20px 40px; /* Shorter height, increased width */
@@ -55,32 +60,47 @@
             align-items: center;
             margin: 120px auto 40px auto; /* Increased top margin for more spacing due to fixed header */
         }
+
         h1 {
             color: #4b0082; /* dark purple */
             font-family: 'Cormorant Garamond', serif; /* Cormorant Garamond font for headings */
             font-size: 48px; /* Larger font size */
             font-weight: bold; /* Bold font weight */
         }
+
+        .profile-picture {
+            width: 150px; /* Set the desired width */
+            height: 150px; /* Set the desired height */
+            border-radius: 50%; /* Make the image circular */
+            object-fit: cover; /* Ensure the image covers the area */
+            margin: 0px 0; /* Reduced margin for less spacing */
+        }
+
         p {
             font-size: 22px; /* Larger font size */
             line-height: 1.6;
             font-family: 'Cormorant Garamond', serif; /* Cormorant Garamond font for paragraphs */
         }
+
         .social-icons {
             margin-top: 20px;
         }
+
         .social-icons a {
             display: inline-block;
             margin: 0 10px;
         }
+
         .social-icons img {
             width: 60px; /* Increased size */
             height: 60px; /* Increased size */
             border-radius: 5px;
         }
+
         .contact-info {
             margin-top: 20px;
         }
+
         .contact-info a {
             color: #000000; /* black */
             text-decoration: none;
@@ -88,17 +108,18 @@
     </style>
 </head>
 <body>
-   <header class="header">
-    <nav>
-        <a href="about.html">About</a>
-        <a href="index.html">
-            <img class="home-logo" src="https://i.ibb.co/r7b6jh5/Screenshot-2024-06-19-182739.png" alt="Home">
-        </a>
-        <a href="projects.html">Projects</a>
-    </nav>
-</header>
+    <header class="header">
+        <nav>
+            <a href="about.html">About</a>
+            <a href="index.html">
+                <img class="home-logo" src="https://i.ibb.co/r7b6jh5/Screenshot-2024-06-19-182739.png" alt="Home">
+            </a>
+            <a href="projects.html">Projects</a>
+        </nav>
+    </header>
     <div id="home" class="container">
-        <h1 style="font-size: 48px; font-weight: bold;">Biya Brook</h1>
+        <h1>Biya Brook</h1>
+        <img class="profile-picture" src="https://i.ibb.co/KLH41wp/image.png" alt="Profile Picture">
         <p>Stanford University '28 | Co-Founder @ ScholaLatinae</p>
         <div class="social-icons">
             <a href="https://www.instagram.com/biyabrook" target="_blank">
