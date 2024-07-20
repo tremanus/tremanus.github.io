@@ -95,15 +95,15 @@ p {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
-    margin: 0 20px;
+    margin: 0 auto;
 }
 
 .resume-button {
-    margin-right: 80px;
+    margin-right: 40px;
 }
 
 .projects-button {
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .resume-button:hover, .projects-button:hover {
