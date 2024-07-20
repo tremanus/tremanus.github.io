@@ -31,7 +31,7 @@ body {
 .header nav a {
     color: #000000;
     text-decoration: none;
-    margin: 0 60px; /* Increased margin for more spacing between links */
+    margin: 0 40px; /* Increased margin for more spacing between links */
     font-size: 20px;
     font-weight: 600;
     font-family: 'Cormorant Garamond', serif;
