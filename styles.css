@@ -31,7 +31,7 @@ body {
 .header nav a {
     color: #000000;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 30px; /* Increased margin for more spacing between links */
     font-size: 20px;
     font-weight: 600;
     font-family: 'Cormorant Garamond', serif;
@@ -66,7 +66,7 @@ h1 {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 0px 0;
+    margin: 40px 0; /* Increased margin for more space between the picture and buttons */
 }
 
 p {
@@ -81,7 +81,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 40px; /* Increased margin for more space between the picture and buttons */
 }
 
 .resume-button, .projects-button {
@@ -95,15 +95,7 @@ p {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
-    margin: 0 auto;
-}
-
-.resume-button {
-    margin-right: 40px;
-}
-
-.projects-button {
-    margin-left: 40px;
+    margin: 0 20px;
 }
 
 .resume-button:hover, .projects-button:hover {
