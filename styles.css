@@ -66,7 +66,7 @@ h1 {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 40px 20px; /* Increased margin for more space between the picture and buttons */
+    margin: 10px 20px; /* Increased margin for more space between the picture and buttons */
 }
 
 p {
@@ -81,7 +81,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40px; /* Increased margin for more space between the picture and buttons */
+    margin: 10px 20px; /* Increased margin for more space between the picture and buttons */
 }
 
 .resume-button, .projects-button {
