@@ -31,15 +31,15 @@ body {
 .header nav a {
     color: #000000;
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0 40px;
     font-size: 20px;
     font-weight: 600;
     font-family: 'Cormorant Garamond', serif;
 }
 
 .header .home-logo {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 
 .container {
@@ -80,8 +80,9 @@ p {
 .buttons-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 10px 20px;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 100%;
 }
 
 .resume-button, .projects-button {
@@ -95,7 +96,10 @@ p {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
-    margin: 0 20px;
+    margin: 10px;
+    flex: 1;
+    min-width: 150px;
+    box-sizing: border-box;
 }
 
 .resume-button:hover, .projects-button:hover {
@@ -103,10 +107,12 @@ p {
 }
 
 .about-image {
-    width: 300px;
+    width: 100%;
     height: auto;
-    margin: 20px 0;
+    margin: 0 20px;
     border-radius: 10px;
+    flex-shrink: 0;
+    max-width: 300px;
 }
 
 .second-picture {
@@ -187,6 +193,14 @@ p {
     .container {
         margin: 100px auto 20px auto;
         padding: 20px;
+    }
+
+    .buttons-container {
+        flex-direction: column;
+    }
+
+    .about-image {
+        margin: 20px 0;
     }
 
     .project {
