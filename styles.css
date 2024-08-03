@@ -157,23 +157,6 @@ p {
     margin: 20px;
 }
 
-.social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.social-icons a {
-    margin: 0 10px;
-}
-
-.social-icons img {
-    width: 60px;
-    height: 60px;
-    border-radius: 5px;
-}
-
 .contact-info {
     margin-top: 20px;
 }
